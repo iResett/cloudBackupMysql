@@ -1,0 +1,7 @@
+name: cloudMysqlBackup
+main: com.cloudcraft.mysqlbackup.Main
+version: 1.0
+author: iResett
+
+commands:
+ dobackupmysql:

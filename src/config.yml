@@ -1,0 +1,17 @@
+#Permissao: cloudcraft.mysqlbackup
+Mysql:
+ IP: "localhost"
+ Porta: "3306"
+ DB: "test"
+ Usuario: "admin"
+ Senha: ""
+
+TodasTabelas: true
+Lista:
+ - "cloudfactions"
+ - "cloudplayers"
+ - "baus"
+ 
+SalvarAutomatico:
+ Ativar: true
+ Horario: "12:00:00"
